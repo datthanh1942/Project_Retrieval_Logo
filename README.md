@@ -5,7 +5,7 @@
 ## The necessary files to run for the functions are:
 - Detect: last.pt (the result of the last training epoch) or best.pt (the result of the best training epoch)
 - Retrieval: new_cluster.pkl (the feature vector file that has been labeled of the dataset)
-
+(Download link: https://drive.google.com/file/d/1---ViJ3rPYKDSVxjZY-VloY5Fpy8qruv/view)
 ### The “Train_YOLO” folder is the source code and file leading to the necessary dataset to train YOLO “logo_detect_yolov8.yaml”, you need to follow the path below to get the .pt file:
 * Source/Train_Yolo/runs/detect/train/weights/*.pt
 
