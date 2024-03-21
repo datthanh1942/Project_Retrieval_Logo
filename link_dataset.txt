@@ -1,2 +1,0 @@
-- data train YOLO (có tệp .txt liệt kê những brand đã train): https://drive.google.com/drive/folders/1IuMtSq-N3_ovanwRtj9qgmeRbEfid3S5?usp=drive_link
-- Dataset train retrieval: https://drive.google.com/drive/folders/1PsdiHlxHFq2hfHBXd7PEdZ3ZrlHuz5uU?usp=sharing
