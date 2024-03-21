@@ -23,5 +23,8 @@
 - Sắp xếp độ giống nhau theo chiều lớn đến nhỏ và lấy top_k kết quả
 - In ra độ giống nhau và các ảnh giống nhau trong thư mục kết quả (thư mục Result_Img trên drive)
 
+## Link dataset:
+- Data train YOLO: https://drive.google.com/drive/folders/1IuMtSq-N3_ovanwRtj9qgmeRbEfid3S5?usp=drive_link
+- Dataset train retrieval: https://drive.google.com/drive/folders/1PsdiHlxHFq2hfHBXd7PEdZ3ZrlHuz5uU?usp=sharing
 
-Để biết chi tiết về mã nguồn và các đầu vào, vui lòng đọc file chú thích "Chu_thich_ma_nguon.pdf"
+## Link demo:
