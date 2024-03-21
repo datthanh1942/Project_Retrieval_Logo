@@ -28,4 +28,4 @@
 - Dataset train retrieval: https://drive.google.com/drive/folders/1PsdiHlxHFq2hfHBXd7PEdZ3ZrlHuz5uU?usp=sharing
 
 ## Link demo
-https://drive.google.com/file/d/1UODcUUQNLn5hoOLuIlyovyfMRKGRTdRx/view?usp=sharing
+* https://drive.google.com/file/d/1UODcUUQNLn5hoOLuIlyovyfMRKGRTdRx/view?usp=sharing
