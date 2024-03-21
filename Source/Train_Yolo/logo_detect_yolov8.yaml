@@ -1,0 +1,6 @@
+path: '/content/drive/Mydrive/Dataset/data_train_yolo'
+train: 'images/train'
+val: 'images/val'
+
+names:
+ 0: logo

@@ -1,0 +1,81 @@
+-------------------------Clothes:--------------------
+Adidas
+Columbia
+EKCO
+Emilio Pucci
+Errea
+Everlast
+Hilleberg
+lacoste
+------------------------Electronic:-------------------
+Amoi
+Amstrad
+Asus
+AndreaElectronics
+BlackBerry
+Contax
+Contec
+Daewoo Electronics
+Gateway
+HTC
+IBM
+MediaTek
+----------------------Food:-------------------
+AMT Coffee
+Apple Jacks
+Appletiser
+Baker's(Bakers)
+Beaulieu
+Benihana
+Campbells
+Cherry 7Up
+Chex
+Chocomel
+CiCi's Pizza
+Cigar City
+coca cola
+Cruz Tequila
+French Toast Crunch
+----------------------Leisure:-----------------
+GameWorks
+High School Musical
+Hooters
+Hot Wheels
+Kung Fu Panda Crunchers
+mickey mouse
+---------------------Medical-------------------
+Apiretal
+Calpol
+Efferalgan
+---------------------Neccessities-------------
+BODUM
+Candle
+Cif
+Gain
+Gillette
+Ivory
+LOTOS
+Maple Leaf
+--------------------Transportation------------
+ANCAP
+Aprilia
+Atala
+Benelli
+Bentley
+Bertone
+BMC
+BMW
+Bridgestone
+Brilliance
+Cannondale
+Caparo
+Chevrolet
+Daewoo*
+Genesis
+GMC
+Hyundai
+Isuzu
+Lamborghini
+landrover
+Magna
+Mazda
