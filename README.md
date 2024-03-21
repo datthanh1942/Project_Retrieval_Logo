@@ -7,10 +7,10 @@
 - Retrieval: file new_cluster.pkl (file vector đặc trưng đã được gán nhãn của dataset)
 (link tải về: https://drive.google.com/file/d/1---ViJ3rPYKDSVxjZY-VloY5Fpy8qruv/view?usp=drive_link)
 
-* Thư mục "Train_YOLO" là source code và file dẫn đến dataset cần thiết để train YOLO "logo_detect_yolov8.yaml", cần vào theo đường dẫn sau lấy để lấy file .pt:
+### Thư mục "Train_YOLO" là source code và file dẫn đến dataset cần thiết để train YOLO "logo_detect_yolov8.yaml", cần vào theo đường dẫn sau lấy để lấy file .pt:
 /Train_Yolo/runs/detect/train/weights.
 
-* File "Normalize" là quá trình tiền xử lý dữ liệu đối với bộ dữ liệu train yolo
+### File "Normalize" là quá trình tiền xử lý dữ liệu đối với bộ dữ liệu train yolo
 
 ## Quy trình chạy của mã nguồn chính "Project" :
 - Chạy 'detect logo' để thu được ảnh cắt logo từ ảnh đầu vào
