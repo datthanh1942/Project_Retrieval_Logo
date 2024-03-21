@@ -1,27 +1,27 @@
 # Project_Retrieval_Logo
-## Mã nguồn được thực hiện và chạy trên google colab với những thư viện yêu cầu cài đặt như:
+## The source code is executed and run on Google Colab with the required libraries installed, such as:
 - ultralytics
 - CUDA (có thể không cần nhưng chạy và xử lý chậm hơn)
-## Các file cần thiết để chạy đối với các chức năng:
-- Dectect : file last.pt(kết quả train epoch cuối cùng) hoặc best.pt(kết quả train epoch tốt nhất)
-- Retrieval: file new_cluster.pkl (file vector đặc trưng đã được gán nhãn của dataset)
-(link tải về: https://drive.google.com/file/d/1---ViJ3rPYKDSVxjZY-VloY5Fpy8qruv/view?usp=drive_link)
+## The necessary files to run for the functions are:
+- Detect: last.pt (the result of the last training epoch) or best.pt (the result of the best training epoch)
+- Retrieval: new_cluster.pkl (the feature vector file that has been labeled of the dataset)
+(Download link: https://drive.google.com/file/d/1---ViJ3rPYKDSVxjZY-VloY5Fpy8qruv/view?usp=drive_link)
 
-### Thư mục "Train_YOLO" là source code và file dẫn đến dataset cần thiết để train YOLO "logo_detect_yolov8.yaml", cần vào theo đường dẫn sau lấy để lấy file .pt:
-* Source/Train_Yolo/runs/detect/train/weights.
+### The “Train_YOLO” folder is the source code and file leading to the necessary dataset to train YOLO “logo_detect_yolov8.yaml”, you need to follow the path below to get the .pt file:
+* Source/Train_Yolo/runs/detect/train/weights/*.pt
 
-### File "Normalize" là quá trình tiền xử lý dữ liệu đối với bộ dữ liệu train yolo
+### The “Normalize” file is the data preprocessing process for the YOLO training dataset
 
-## Quy trình chạy của mã nguồn chính "Project" :
-- Chạy 'detect logo' để thu được ảnh cắt logo từ ảnh đầu vào
-- Sau đó tiến hành chạy các hàm để rút trích đặc trưng từ bộ dữ liệu (thư mục train)
-- Gọi mô hình muốn sử dụng
-- Gom cụm và gán nhãn bộ dữ liệu bằng thuật toán KMeans
-- Lưu hoặc load lại các vector đặc trưng đã được gom cụm của bộ dữ liệu bằng .pkl
-- Lấy ảnh logo đã được cắt từ 'detect logo' để rút trích đặc trưng và dự đoán nhãn
-- Dùng vector đặc trưng của ảnh đầu vào đem so sánh với các ảnh có cùng nhãn
-- Sắp xếp độ giống nhau theo chiều lớn đến nhỏ và lấy top_k kết quả
-- In ra độ giống nhau và các ảnh giống nhau trong thư mục kết quả (thư mục Result_Img trên drive)
+## The running process of the main source code “Project” is:
+- Run ‘detect logo’ to get the logo cut image from the input image
+- Then proceed to run the functions to extract features from the dataset (train folder)
+- Call the model you want to use
+- Cluster and label the dataset using the KMeans algorithm
+- Save or reload the clustered feature vectors of the dataset using .pkl
+- Take the logo image that has been cut from ‘detect logo’ to extract features and predict labels
+- Use the feature vector of the input image to compare with the images with the same label
+- Sort the similarity in descending order and take the top_k results
+- Print out the similarity and the similar images in the result folder
 
 ## Link dataset
 - Data train YOLO: https://drive.google.com/drive/folders/1IuMtSq-N3_ovanwRtj9qgmeRbEfid3S5?usp=drive_link
